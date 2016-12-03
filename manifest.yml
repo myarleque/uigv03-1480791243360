@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: uigv03
+  host: uigv03
+  disk_quota: 1024M
+  services:
+  - uigv03-cloudantNoSQLDB
+  - Personality Insights-r1
